@@ -80,12 +80,15 @@
     margin-bottom: 5%;
     margin-top: 5%;
     margin-left: 10%;
+    /* width: 100%;  */
+    /* text-align: center;  */
+    border-bottom: 1px solid rgb(99, 98, 98); 
+    line-height: 0.1em;
+    /* margin: 10px 0 20px;  */
 }
-.divider::before{
-    content: '';
-    width: 10%;
-    height:1px;
-    background-color: rgb(99, 98, 98);
+.divider span{
+    background:#fff; 
+    padding:0 10px;
     /* border-bottom: solid 1px #fff; */
 }
 form{
